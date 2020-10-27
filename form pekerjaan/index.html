@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Registrasi Pegawai</title>
+    <div style="background-color:lavender"  align="center">
+    </head>
+<body style="text-align: center;">
+    <h1>Pendaftaran Pekerjaan</h1>
+    <hr width="20%" align="center">
+   
+    <table align="center">
+        <tr>
+            <td valign="top">Nama Lengkap</td>
+            <td><input type="text" name="Name" placeholder="Nama"></td>
+        </tr>
+        <tr>
+            <td valign="top">Tempat Lahir</td>
+            <td><input type="text" name="Tempat Lahir" placeholder="Tempat Lahir"></td>
+        </tr>
+        <tr>
+            <td valign="top">Tanggal Lahir</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td valign="top">Jenis Kelamin</td>
+            <td>
+        <label><input type="radio" name="Gender" value="laki-laki" />Laki-Laki</label>
+        <label><input type="radio" name="Gender" value="perempuan" />Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">Email</td>
+            <td><input type="email" name="Email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td valign="top">Nomor Handphone</td>
+            <td><input type="number" name="password" placeholder="(+62)"></td>
+        </tr>
+
+        <tr>
+            <td valign="top">Nomor NIK</td>
+            <td><input type="number" name="NIK" placeholder="Nomor NIK"></td>
+        </tr>
+        <tr>
+            <td valign="top">Alamat Lengkap</td>
+            <td><input type="Alamat" name="Alamat Lengkap" placeholder="Alamat Lengkap"></td>
+        </tr>
+        <tr>
+            <td valign="top">Agama</td>
+            <td>
+                <select>
+                    <option>--Pilih--</option>
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Katholik</option>
+                    <option>Hindu</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+
+        <label for="foto">Ijazah</label>
+        <input type="file">
+        <br>
+        <label for="foto">Pas Foto 4x6</label>
+        <input type="file">
+        <br>
+        <label for="SKCK">SKCK</label>
+        <input type="file">
+        <br>
+        <label for="KK">KK</label>
+        <input type="file">
+        
+        <br><br>
+    <label for="">Pilih Pekerjaan:</label><br>
+    <label for="">Designer</label>
+    <input type="checkbox" name="type_design">
+    <label for="">Resepsionis</label>
+    <input type="checkbox" name="type_resepsionis">
+    <label for="">Office Boy</label>
+    <input type="checkbox" name="type_office">
+    <label for="">Programmer</label>
+    <input type="checkbox" name="type_programmer">
+    
+    
+    <br><br>
+    <tr>
+        <td colspan="2"><input type="submit" value="submit"></td>
+    </tr>
+</body>
+</html>
